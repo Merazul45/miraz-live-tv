@@ -196,6 +196,12 @@ new Plyr(e, o)
 }
 });
 </script>
+<body>
+<script>
+document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+}, false);
+</script>
 
 <script type="text/JavaScript">
     const urlParams = new URLSearchParams(window.location.search);
@@ -205,5 +211,6 @@ new Plyr(e, o)
         "file": videoUrl
         });
         
-</script>
+</script>   
+</body>
 </html>
